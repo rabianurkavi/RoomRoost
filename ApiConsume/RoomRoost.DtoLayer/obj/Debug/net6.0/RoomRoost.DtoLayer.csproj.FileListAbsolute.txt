@@ -1,0 +1,17 @@
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.DtoLayer.deps.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.DtoLayer.runtimeconfig.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.DtoLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.DtoLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.AssemblyInfo.cs
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.csproj.CopyComplete
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\refint\RoomRoost.DtoLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\RoomRoost.DtoLayer.genruntimeconfig.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DtoLayer\obj\Debug\net6.0\ref\RoomRoost.DtoLayer.dll

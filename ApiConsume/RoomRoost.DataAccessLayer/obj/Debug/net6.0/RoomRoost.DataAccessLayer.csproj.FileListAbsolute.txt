@@ -1,0 +1,17 @@
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.DataAccessLayer.deps.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.DataAccessLayer.runtimeconfig.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.DataAccessLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.DataAccessLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.AssemblyInfo.cs
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.csproj.CopyComplete
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\refint\RoomRoost.DataAccessLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\RoomRoost.DataAccessLayer.genruntimeconfig.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.DataAccessLayer\obj\Debug\net6.0\ref\RoomRoost.DataAccessLayer.dll

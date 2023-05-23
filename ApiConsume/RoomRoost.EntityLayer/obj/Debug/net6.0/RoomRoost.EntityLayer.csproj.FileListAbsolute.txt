@@ -1,0 +1,14 @@
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.deps.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.runtimeconfig.json
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\bin\Debug\net6.0\RoomRoost.EntityLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.AssemblyInfo.cs
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\refint\RoomRoost.EntityLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\RoomRoost.EntityLayer.genruntimeconfig.cache
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.EntityLayer\obj\Debug\net6.0\ref\RoomRoost.EntityLayer.dll

@@ -8,6 +8,9 @@ namespace RoomRoost.EntityLayer.Concrete
 {
     public class Service
     {
-        public int ServiceId { get; set; }
+        public int ServiceID { get; set; }
+        public string ServiceIcon { get; set; }
+        public string ServiceTitle { get; set; }
+        public string Description { get; set; }
     }
 }
