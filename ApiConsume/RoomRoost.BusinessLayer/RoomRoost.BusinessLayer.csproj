@@ -25,4 +25,8 @@
     <ProjectReference Include="..\RoomRoost.EntityLayer\RoomRoost.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
 </Project>

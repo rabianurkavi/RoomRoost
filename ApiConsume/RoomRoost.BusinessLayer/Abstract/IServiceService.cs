@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RoomRoost.DataAccessLayer.Abstract
+namespace RoomRoost.BusinessLayer.Abstract
 {
-    public interface IServiceDal:IGenericDal<Service>
+    public interface IServiceService:IGenericService<Service>
     {
     }
 }
