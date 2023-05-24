@@ -7,7 +7,7 @@ using RoomRoost.DataAccessLayer.Concrete;
 
 namespace RoomRoost.DataAccessLayer.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(RoomRoostDbContext))]
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

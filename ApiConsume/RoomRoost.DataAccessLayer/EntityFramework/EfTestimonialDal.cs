@@ -12,7 +12,7 @@ namespace RoomRoost.DataAccessLayer.EntityFramework
 {
     public class EfTestimonialDal : GenericRepository<Testimonial>, ITestimonialDal
     {
-        public EfTestimonialDal(Context context) : base(context) { }
+        public EfTestimonialDal(RoomRoostDbContext context) : base(context) { }
 
     }
 }

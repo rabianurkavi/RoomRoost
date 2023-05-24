@@ -12,7 +12,7 @@ namespace RoomRoost.DataAccessLayer.EntityFramework
 {
     public class EfStaffDal:GenericRepository<Staff>,IStaffDal
     {
-        public EfStaffDal(Context context):base(context) { }
+        public EfStaffDal(RoomRoostDbContext context):base(context) { }
         
     }
 }

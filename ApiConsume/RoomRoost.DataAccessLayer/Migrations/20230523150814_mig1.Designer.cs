@@ -8,7 +8,7 @@ using RoomRoost.DataAccessLayer.Concrete;
 
 namespace RoomRoost.DataAccessLayer.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(RoomRoostDbContext))]
     [Migration("20230523150814_mig1")]
     partial class mig1
     {

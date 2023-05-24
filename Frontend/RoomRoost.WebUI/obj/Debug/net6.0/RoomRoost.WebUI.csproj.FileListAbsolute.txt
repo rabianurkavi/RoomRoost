@@ -32,13 +32,9 @@ C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
@@ -69,3 +65,4 @@ C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\obj\Debug\net6.0\
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\obj\Debug\net6.0\RoomRoost.WebUI.pdb
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\obj\Debug\net6.0\RoomRoost.WebUI.genruntimeconfig.cache
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\obj\Debug\net6.0\ref\RoomRoost.WebUI.dll
+C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoost.WebUI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

@@ -12,6 +12,6 @@ namespace RoomRoost.DataAccessLayer.EntityFramework
 {
     public class EfServiceDal:GenericRepository<Service>, IServiceDal
     {
-        public EfServiceDal(Context context) : base(context) { }
+        public EfServiceDal(RoomRoostDbContext context) : base(context) { }
     }
 }

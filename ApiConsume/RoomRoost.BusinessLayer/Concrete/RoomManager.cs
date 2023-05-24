@@ -38,7 +38,7 @@ namespace RoomRoost.BusinessLayer.Concrete
 
         public void TUpdate(Room t)
         {
-            return _roomDal.Update(t);
+             _roomDal.Update(t);
         }
     }
 }
