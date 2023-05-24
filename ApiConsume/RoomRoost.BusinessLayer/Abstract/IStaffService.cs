@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RoomRoost.BusinessLayer.Abstract
 {
-    public interface IStaffService:IGenericService<Staff>
+    public interface IStaffService : IGenericService<Staff>
     {
     }
 }
