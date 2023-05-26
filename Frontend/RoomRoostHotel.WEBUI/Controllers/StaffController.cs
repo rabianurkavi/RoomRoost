@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RoomRoostHotel.WEBUI.Models.Staff;
+using System.Text;
 
 namespace RoomRoostHotel.WEBUI.Controllers
 {
@@ -27,6 +28,24 @@ namespace RoomRoostHotel.WEBUI.Controllers
                 //türünde bir nesneye dönüştürür. Bu dönüşüm, JSON verisini C# nesnelerine uygun şekilde ayrıştırır.
                 var values = JsonConvert.DeserializeObject<List<StaffViewModel>>(jsondata);
                 return View(values);
+            }
+            return View();
+        }
+        [HttpGet]
+        public IActionResult AddStaff()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddStaff(AddStaffViewModel model)
+        {
+            var client= _httpClientFactory.CreateClient();
+            var jsonData= JsonConvert.SerializeObject(model);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8,"application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5086/api/Staff", stringContent);
+            if(responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
             }
             return View();
         }
