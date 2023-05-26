@@ -19,6 +19,15 @@ builder.Services.AddScoped<IRoomDal, EfRoomDal>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 builder.Services.AddScoped<IStaffDal, EfStaffDal>();
 
+//API'nizin CORS politikalarýný yapýlandýrarak farklý kaynaklardan
+//gelen isteklere izin verir ve uygulamanýn CORS destekleyen istemcilerle doðru bir þekilde iletiþim kurmasýný saðlar.
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("HotelApiCors", opts =>
+    {
+        opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
 // Add services to the container.
 
 
@@ -35,6 +44,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("HotelApiCors");
 
 app.UseAuthorization();
 
