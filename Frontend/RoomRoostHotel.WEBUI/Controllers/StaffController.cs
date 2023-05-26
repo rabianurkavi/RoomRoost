@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RoomRoostHotel.WEBUI.Models.Staff;
+using System.Reflection;
 using System.Text;
 
 namespace RoomRoostHotel.WEBUI.Controllers
@@ -48,6 +49,17 @@ namespace RoomRoostHotel.WEBUI.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+        public async Task<IActionResult> DeleteStaff(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.DeleteAsync($"http://localhost:5086/api/Staff/{id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+
         }
     }
 }
