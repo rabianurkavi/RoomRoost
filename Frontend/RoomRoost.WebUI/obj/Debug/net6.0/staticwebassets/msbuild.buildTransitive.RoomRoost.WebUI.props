@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\RoomRoost.WebUI.props" />
-</Project>
