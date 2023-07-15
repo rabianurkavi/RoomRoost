@@ -24,4 +24,10 @@
     <ProjectReference Include="..\RoomRoost.EntityLayer\RoomRoost.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dto\ServiceDto\" />
+    <Folder Include="Dto\SubscribeDto\" />
+    <Folder Include="Dto\StaffDto\" />
+  </ItemGroup>
+
 </Project>

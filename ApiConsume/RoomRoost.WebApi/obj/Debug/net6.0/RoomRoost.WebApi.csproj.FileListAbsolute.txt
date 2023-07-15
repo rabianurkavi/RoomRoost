@@ -74,3 +74,5 @@ C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\RoomRoost.DataAccessLayer.pdb
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\RoomRoost.DtoLayer.pdb
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\RoomRoost.EntityLayer.pdb
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

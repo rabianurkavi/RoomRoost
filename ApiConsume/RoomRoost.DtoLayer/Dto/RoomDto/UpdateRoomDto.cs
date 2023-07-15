@@ -15,10 +15,10 @@ namespace RoomRoost.DtoLayer.Dto.RoomDto
         public string RooomNumber { get; set; }
         public string RoomCoverImage { get; set; }
         [Required(ErrorMessage = "Lütfen fiyat bilgisi giriniz.")]
-        [MaxLength(20,ErrorMessage="Bir hata meydana geldi, lütfen tekrar deneyin.")]
+       
         public int RoomPrice { get; set; }
         [Required(ErrorMessage = "Lütfen oda başlığı  giriniz.")]
-        [MaxLength(50, ErrorMessage="En fazla 50 karakter girebilirsiniz.")]
+        [StringLength(20, ErrorMessage = "Bir hata meydana geldi, lütfen tekrar deneyin.")]
         public string RoomTitle { get; set; }
         [Required(ErrorMessage = "Lütfen yatak sayısını giriniz.")]
         public string BedCount { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoomRoost.DtoLayer.Dto.TestimonialDto
 {
-    internal class TestimonialAddDto
+    public class TestimonialAddDto
     {
     }
 }

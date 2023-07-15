@@ -26,6 +26,9 @@ builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 
+
+builder.Services.AddAutoMapper(typeof(Program));
+
 //API'nizin CORS politikalarýný yapýlandýrarak farklý kaynaklardan
 //gelen isteklere izin verir ve uygulamanýn CORS destekleyen istemcilerle doðru bir þekilde iletiþim kurmasýný saðlar.
 builder.Services.AddCors(opt =>
