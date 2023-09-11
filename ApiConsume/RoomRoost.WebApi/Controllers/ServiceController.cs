@@ -26,7 +26,7 @@ namespace RoomRoost.WebApi.Controllers
             _serviceService.TAdd(service);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteService(int id)
         {
             var values = _serviceService.TGetById(id);
