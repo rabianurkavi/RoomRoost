@@ -82,6 +82,10 @@ namespace RoomRoostHotel.WEBUI.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateService(UpdateServiceDto model)
         {
+            if(!ModelState.IsValid)
+            {
+                return View();
+            }
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(model);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
