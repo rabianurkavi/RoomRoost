@@ -76,3 +76,8 @@ C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\RoomRoost.EntityLayer.pdb
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\kavir\source\repos\RoomRoost\ApiConsume\RoomRoost.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
