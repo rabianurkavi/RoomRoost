@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{D4642C62-D1D1-442C-A86D-E51DBD022A01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{259565E0-ABCC-4BC6-8487-B2EE126FD28D}"
+	ProjectSection(SolutionItems) = preProject
+		UsedTecnologies.txt = UsedTecnologies.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomRoost.EntityLayer", "ApiConsume\RoomRoost.EntityLayer\RoomRoost.EntityLayer.csproj", "{C02F1201-E6F7-4373-B8EA-1EB0907D0FB6}"
 EndProject
@@ -19,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomRoost.DtoLayer", "ApiCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomRoost.WebApi", "ApiConsume\RoomRoost.WebApi\RoomRoost.WebApi.csproj", "{387C8DA1-EEA2-449F-B7E2-0D90C9429E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomRoostHotel.WEBUI", "Frontend\RoomRoostHotel.WEBUI\RoomRoostHotel.WEBUI.csproj", "{651BF3C5-AD9F-415E-9B0B-0F8D7A58827C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomRoostHotel.WEBUI", "Frontend\RoomRoostHotel.WEBUI\RoomRoostHotel.WEBUI.csproj", "{651BF3C5-AD9F-415E-9B0B-0F8D7A58827C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
