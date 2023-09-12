@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using RoomRoost.EntityLayer.Concrete;
+using RoomRoostHotel.WEBUI.Dtos.RegisterDto;
 using RoomRoostHotel.WEBUI.Dtos.ServiceDto;
 
 namespace RoomRoostHotel.WEBUI.Mapping
@@ -11,6 +12,8 @@ namespace RoomRoostHotel.WEBUI.Mapping
             CreateMap<ResultServiceDto, Service>().ReverseMap();
             CreateMap<UpdateServiceDto, Service>().ReverseMap();
             CreateMap<CreateServiceDto, Service>().ReverseMap();
+
+            CreateMap<CreateAppUserDto, AppUser>().ReverseMap();
 
         }
     }

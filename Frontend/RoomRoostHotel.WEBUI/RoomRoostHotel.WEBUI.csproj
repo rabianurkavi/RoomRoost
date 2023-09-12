@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\ApiConsume\RoomRoost.DataAccessLayer\RoomRoost.DataAccessLayer.csproj" />
     <ProjectReference Include="..\..\ApiConsume\RoomRoost.EntityLayer\RoomRoost.EntityLayer.csproj" />
   </ItemGroup>
 

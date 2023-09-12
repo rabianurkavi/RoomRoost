@@ -254,3 +254,5 @@ C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\ne
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\net6.0\RoomRoost.DataAccessLayer.dll
+C:\Users\kavir\source\repos\RoomRoost\Frontend\RoomRoostHotel.WEBUI\bin\Debug\net6.0\RoomRoost.DataAccessLayer.pdb

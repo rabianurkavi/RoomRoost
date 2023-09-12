@@ -1,3 +1,6 @@
+using RoomRoost.DataAccessLayer.Concrete;
+using RoomRoost.EntityLayer.Concrete;
+
 namespace RoomRoostHotel.WEBUI
 {
     public class Program
@@ -10,6 +13,8 @@ namespace RoomRoostHotel.WEBUI
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpClient();
             builder.Services.AddAutoMapper(typeof(Program));
+            builder.Services.AddDbContext<RoomRoostDbContext>();
+            builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<RoomRoostDbContext>();
 
             var app = builder.Build();
 
