@@ -2,7 +2,7 @@
 
 namespace RoomRoostHotel.WEBUI.ViewComponents.Default
 {
-    public class _NavbarPartial:ViewComponent
+    public class _SliderPartial:ViewComponent
     {
         public IViewComponentResult Invoke()
         {
