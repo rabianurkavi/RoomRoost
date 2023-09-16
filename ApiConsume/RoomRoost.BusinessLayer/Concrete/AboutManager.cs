@@ -18,27 +18,29 @@ namespace RoomRoost.BusinessLayer.Concrete
         }
         public void TAdd(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Insert(t);
         }
 
         public void TDelete(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Delete(t);
+
         }
 
         public List<About> TGetAll()
         {
-            throw new NotImplementedException();
+            return _aboutDal.GetAll();
         }
 
         public About TGetById(int id)
         {
-            throw new NotImplementedException();
+           return _aboutDal.GetByID(id);
+
         }
 
         public void TUpdate(About t)
         {
-            throw new NotImplementedException();
+            _aboutDal.Update(t);
         }
     }
 }

@@ -16,6 +16,9 @@ builder.Services.AddDbContext<RoomRoostDbContext>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
 builder.Services.AddScoped<IServiceService, ServiceManager>();
 
+builder.Services.AddScoped<IAboutDal, EfAboutDal>();
+builder.Services.AddScoped<IAboutService, AboutManager>();
+
 builder.Services.AddScoped<IStaffService, StaffManager>();
 builder.Services.AddScoped<IStaffDal, EfStaffDal>();
 
