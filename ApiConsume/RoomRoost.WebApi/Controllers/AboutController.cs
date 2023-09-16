@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using RoomRoost.BusinessLayer.Abstract;
 using RoomRoost.EntityLayer.Concrete;
 
@@ -19,8 +20,8 @@ namespace AboutRoost.WebApi.Controllers
         [HttpGet]
         public IActionResult AboutList()
         {
-            _aboutService.TGetAll();
-            return Ok();
+            var values=_aboutService.TGetAll();
+            return Ok(values);
         }
         [HttpPost]
         public IActionResult AddAbout(About About)
