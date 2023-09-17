@@ -18,8 +18,8 @@ namespace RoomRoost.WebApi.Controllers
         [HttpGet]
         public IActionResult RoomList()
         {
-            _roomService.TGetAll();
-            return Ok();
+            var values=_roomService.TGetAll();
+            return Ok(values);
         }
         [HttpPost]
         public IActionResult AddRoom(Room room)

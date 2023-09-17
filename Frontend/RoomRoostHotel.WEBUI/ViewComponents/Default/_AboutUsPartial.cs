@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RoomRoostHotel.WEBUI.Dtos.AboutDto;
+using RoomRoostHotel.WEBUI.Dtos.RoomDto;
 using RoomRoostHotel.WEBUI.Dtos.ServiceDto;
 
 namespace RoomRoostHotel.WEBUI.ViewComponents.Default
