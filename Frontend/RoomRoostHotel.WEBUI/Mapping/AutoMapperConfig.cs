@@ -4,6 +4,7 @@ using RoomRoostHotel.WEBUI.Dtos.AboutDto;
 using RoomRoostHotel.WEBUI.Dtos.LoginDto;
 using RoomRoostHotel.WEBUI.Dtos.RegisterDto;
 using RoomRoostHotel.WEBUI.Dtos.ServiceDto;
+using RoomRoostHotel.WEBUI.Dtos.StaffDto;
 
 namespace RoomRoostHotel.WEBUI.Mapping
 {
@@ -20,6 +21,9 @@ namespace RoomRoostHotel.WEBUI.Mapping
 
             CreateMap<ResultAboutDto, About>().ReverseMap();
             CreateMap<UpdateAboutDto, About>().ReverseMap();
+
+            CreateMap<ResultStaffDto, Staff>().ReverseMap();
+
 
         }
     }
