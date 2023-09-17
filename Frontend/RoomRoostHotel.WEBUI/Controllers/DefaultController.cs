@@ -8,5 +8,10 @@ namespace RoomRoostHotel.WEBUI.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public PartialViewResult _SubscribePartial()
+        {
+            return PartialView();
+        }
     }
 }
