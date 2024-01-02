@@ -29,6 +29,8 @@ builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 
+builder.Services.AddScoped<ISubscribeDal, EfSubscribeDal>();
+builder.Services.AddScoped<ISubscribeService, SubscribeManager>();
 
 builder.Services.AddAutoMapper(typeof(Program));
 

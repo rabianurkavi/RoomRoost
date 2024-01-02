@@ -26,6 +26,7 @@ namespace RoomRoostHotel.WEBUI.Mapping
             CreateMap<ResultStaffDto, Staff>().ReverseMap();
 
             CreateMap<CreateSubscribeDto, Subscribe>().ReverseMap();
+            CreateMap<ResultSubscribeDto, Subscribe>().ReverseMap();
 
 
         }

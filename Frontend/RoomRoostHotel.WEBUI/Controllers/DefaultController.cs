@@ -27,11 +27,16 @@ namespace RoomRoostHotel.WEBUI.Controllers
         [HttpPost]
         public async Task<IActionResult> _SubscribePartial(CreateSubscribeDto createSubscribeDto)
         {
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(createSubscribeDto);
-            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            await client.PostAsync("http://localhost:3523/api/Subscribe", stringContent);
-            return RedirectToAction("Index", "Default");
+             var client = _httpClientFactory.CreateClient();
+                var jsonData = JsonConvert.SerializeObject(createSubscribeDto);
+                StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                var responseMessage= await client.PostAsync("http://localhost:5086/api/Subscribe", stringContent);
+                if(responseMessage.IsSuccessStatusCode) 
+                {
+                    return RedirectToAction("Index","Default");
+                }
+            
+              return View();
         }
     }
 }
