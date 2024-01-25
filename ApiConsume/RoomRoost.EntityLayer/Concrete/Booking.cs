@@ -18,6 +18,6 @@ namespace RoomRoost.EntityLayer.Concrete
         public string RoomCount { get; set; }
         public string SpecialRequest { get; set; }
         public string Description { get; set; }
-        public bool Status { get; set; }
+        public string Status { get; set; }
     }
 }
