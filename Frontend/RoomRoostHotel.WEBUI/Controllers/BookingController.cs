@@ -26,14 +26,16 @@ namespace RoomRoostHotel.WEBUI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBooking(CreateBookingDto createBooking)
         {
-            if (!ModelState.IsValid)
-            {
-                return View();
-            }
+            createBooking.Description = "dsadsa";
+            createBooking.Status = "Onay bekliyor";
+            //if (!ModelState.IsValid)
+            //{
+            //    return View();
+            //}
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createBooking);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PostAsync("http://localhost:5086/api/Booking", stringContent);
+            var responseMessage = await client.PostAsJsonAsync<CreateBookingDto>("http://localhost:5086/api/Booking", createBooking);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
